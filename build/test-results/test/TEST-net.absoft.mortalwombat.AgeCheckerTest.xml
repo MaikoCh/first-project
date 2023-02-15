@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.absoft.mortalwombat.AgeCheckerTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-02-15T11:26:45" hostname="NB927" time="0.012">
+<testsuite name="net.absoft.mortalwombat.AgeCheckerTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-02-15T12:37:58" hostname="NB927" time="0.016">
   <properties/>
-  <testcase name="testAgedUserCanPlay" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.009">
+  <testcase name="testAgedUserCanPlay" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.013">
     <failure message="java.lang.AssertionError: Aged user can't play game expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Aged user can't play game expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -55,7 +55,7 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testThatTooYoungUsersCanNotPlay" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.001"/>
+  <testcase name="testThatTooYoungUsersCanNotPlay" classname="net.absoft.mortalwombat.AgeCheckerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
